@@ -1,0 +1,393 @@
+/* body */
+body{
+    background-image: linear-gradient(to top,#EBADAD,#D6ACAC,#B0746D,#6E4242);
+}
+/* navbar */
+.navbar{
+    position: relative;
+    z-index: 1;
+}
+.navbar-brand{
+    font-family: 'Lemonada', cursive;
+    font-size: 70px;
+    color: black;
+}
+nvbr{
+    font-family: 'Lemonada', cursive;
+    color: black;
+}
+.nav-link{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-right: 51px;
+    color: #0c0c0c !important;
+    margin-bottom: 10px;
+}
+.nav-link:hover{
+    color: #0c0c0c !important;
+    background-image: linear-gradient(to right,rgb(219, 118, 211),rgba(192, 111, 185, 0.144));
+    
+}
+
+/* jumbotron */
+.jumbotron{
+    background-image: url("img/ship_map_world_souvenir_67479_1366x768.jpg");
+    background-size: cover;
+    height: 427px;
+    text-align: center;
+    position: relative;
+}
+.jumbotron .container{
+    z-index: 1;
+    position: relative;
+}
+.jumbotron::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgb(5, 5, 5),rgba(158, 155, 155, 0.123),rgba(158, 155, 155, 0));
+    position: absolute;
+    bottom: 0;
+}
+
+.jumbotron .display-4{
+    /*font-family: sylfaen;*/
+    font-family: 'Playfair Display', serif;
+    color: #EBC033;
+    margin-top: 147px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    
+}
+
+/* menupanel*/
+.info-panel{
+    background-color: #B0746D;
+    border-radius: 15px;
+    z-index: 1;
+    padding: 21px 39px 43px 39px;
+    height: 800px;
+    width: 856px;
+    left: 35px;
+    box-shadow: 0px 10px 17px 1px black;
+}
+.shadow-info-panel{
+    background-color: #d4abe8b4;
+    border-radius: 15px;
+    z-index: 1;
+    padding: 10px 18px 10px 18px;
+    height: 820px;
+    width: 904px;
+    box-shadow: 0px 20px 33px 4px black;
+}
+
+.infopanel-margin{
+    margin-left: 40px;
+}
+
+/* workinspace */
+
+.workingspace img{
+    position: relative;
+    right: auto;
+    width:"300px";
+    height:"441px";
+    border-top: 6px #9E81AD solid;
+    border-bottom: 6px #9E81AD solid;
+    box-shadow: 0px 2px 30px 3px rgb(17, 13, 22);
+    border-radius: 12px;
+}
+.cont-wspace{
+    margin-top: 40px;
+}
+
+/* Testimonial */
+.testimonial{
+    margin-top: 120px;
+    text-align: center;
+}
+.testimonial img{
+    width:80px;
+  height:80px;
+  object-fit:cover;
+  border-radius:50%;
+}
+#rightfigure{
+    right:-15px;
+}
+#leftfigure{
+    left:-15px;
+}
+
+#midfigure{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+
+/* utility */
+.tombol{
+    border-radius: 31px !important;
+    background-color: #DB9090 !important;
+    padding: 9px 20px 9px 20px !important;
+    color: black !important;
+    outline: none !important;
+    border: none !important;
+    font-weight: bold !important;
+}
+.tombol:hover{
+    background-color: #e66f6f !important;
+
+}
+.tombol_j{
+    border-radius: 31px !important;
+    background-color: #f1d885b0 !important;
+    padding: 9px 20px 9px 20px !important;
+    color: black !important;
+    outline: none !important;
+    border: none !important;
+    font-weight: bold !important;
+}
+.tombol_j:hover{
+    background-color: #e0b115 !important;
+}
+.tombol_ws{
+    border-radius: 31px !important;
+    background-color: #f1d885b0 !important;
+    padding: 9px 20px 9px 20px !important;
+    color: #923333 !important;
+    outline: none !important;
+    border: none !important;
+    font-weight: bold !important;
+    margin-top: 20px;
+    width: 100%;
+}
+.tombol_ws:hover{
+    background-color: #e0b115 !important;
+    background-image: linear-gradient(#e0b115,rgba(252, 252, 252, 0.082));
+}
+
+f{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F8BF03;
+    font-weight: 75;
+}
+h4{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 0 0 0;
+    font-size: 15px;
+}
+.workingspace p{
+    color: #252426;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 0 0 0;
+    font-size: 20px;
+}
+hf{
+    color: #B0746D;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+ff{
+    color: #9E81AD;
+    font-size: 35px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h5{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #252426;
+    font-size: 15px;
+    font-style: italic;
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    color: #252426c4;
+    font-weight: normal;
+    font-size: 15px !important;
+    position: relative; 
+    top: 10px;
+
+}
+#quote{
+    font-size: 35px ;
+    font-family: 'Caveat', cursive;
+    font-weight: lighter;
+}
+ffff{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #252426;
+    font-size: 13px;
+}
+
+
+/* footer */
+#footer{
+    position: relative;
+    right: 150px;
+    font-size: 20px;
+    margin-top: 89px;
+}
+
+
+/* Desktop */
+@media (min-width: 992px) { 
+    .tombol{
+        height: 37px !important;
+        width: 108px !important;
+        position: relative;
+        top: 6px;
+    }
+    .navbar-brand{
+        color: #ffffffa1 !important;
+    }
+    .nav-link{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        margin-right: 51px;
+        color: #EEB5B5 !important;
+    }
+    .nav-link:hover{
+        background-image: none;
+        color: #EEB5B5 !important;
+    }
+    .nav-link:hover::before{
+        content: '';
+        border-left: #ECA1A1 2px solid;
+        width: 50%;
+        padding-left: 10px;
+        padding-right: 3px;
+        margin-right: -13px;
+        box-shadow: -10px 2px 2px #EEB5B5;
+    }
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        width: 100%;
+        margin-right: auto;
+        border-bottom: #4E3B3B 2px solid;
+        padding-bottom: 0px;
+        margin-bottom: -2px;
+        box-shadow: 0px 3px 2px #4E3B3B;
+    }
+    .jumbotron{
+        margin-top: -131px;
+        height: 610px;
+    }
+    .jumbotron .display-4{
+        font-size: 70px;
+        
+    }
+    /* menupanel*/
+    .shadow-info-panel{
+        background-color: #d4abe8b4;
+        border-radius: 15px;
+        position: relative;
+        bottom: 110px;
+        z-index: 1;
+        padding: 10px 18px 10px 18px;
+        height: 279px;
+        width: 904px;
+    }
+    .info-panel{
+        background-color: #B0746D;
+        border-radius: 15px;
+        position: relative;
+        bottom: 0px;
+        z-index: 1;
+        padding: 21px 39px 43px 39px;
+        height: 252px;
+        width: 856px;
+        left: 80px;
+    }
+    .infopanel-margin{
+        margin-left: 40px;
+    }
+
+    /* Workingspace */
+    .workingspace img{
+        position: relative;
+        right: 30px;
+        width:"616px";
+        height:"500px";
+        border-top: 12px #9E81AD solid;
+        border-bottom: 12px #9E81AD solid;
+        box-shadow: 0px 2px 30px 3px rgb(17, 13, 22);
+        border-radius: 12px;
+    }
+
+    .workingspace hf{
+        font-size: 59px;
+    }
+
+    .workingspace ff{
+        font-size: 59px;
+    }
+    .tombol_ws{
+        border-radius: 31px !important;
+        background-color: #f1d885b0 !important;
+        padding: 9px 20px 9px 20px !important;
+        color: #923333 !important;
+        outline: none !important;
+        border: none !important;
+        font-weight: bold !important;
+        margin-top: 20px;
+        width: 202px;
+        position: relative;
+        left: 150px;
+    }
+    .tombol_ws:hover{
+        background-color: #e0b115 !important;
+        background-image: linear-gradient(#e0b115,rgba(252, 252, 252, 0.082));
+    }
+
+    /* Testimonial */
+    .testimonial{
+        margin-top: 60px;
+        text-align: center;
+    }
+    
+    .testimonial h5{
+        font-family: 'Commissioner', sans-serif;
+        font-weight: bold;
+        color: #252426;
+        font-size: 27px;
+        font-style: italic;
+    }
+    #rightfigure{
+        right:150px;
+    }
+    #leftfigure{
+        left:150px;
+    }
+    #midfigure{
+        width: 120px;
+        height: 120px;
+    }
+    
+    /* footer */
+    #footer{
+        position: relative;
+        right: 300px;
+        margin-top: 89px;
+    }
+    #footer p{
+        font-size: 34px;
+    }
+
+}
